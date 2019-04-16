@@ -16,7 +16,7 @@ io.on('conection', socket => {
     });
 });
 
-mongoose.connect('mongodb+srv://cantarelli:01114585@cluster0-uwah0.mongodb.net/test?retryWrites=true', {
+mongoose.connect('mongodb+srv://cantarelli:12345@cluster0-uwah0.mongodb.net/test?retryWrites=true', {
     useNewUrlParser: true
 });
 
