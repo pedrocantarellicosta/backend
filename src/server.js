@@ -27,7 +27,7 @@ app.use((req, res, next)=>{
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-app.use('/files', express.static(path.resolve(__dirname, '..', '..', 'temp')));
+app.use('/files', express.static(path.resolve(__dirname, '..', 'temp')));
 
 app.use(require('./routes'));
 
